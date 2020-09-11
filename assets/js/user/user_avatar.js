@@ -51,8 +51,8 @@ $(function () {
                 if (res.status !== 0) {
                     return layer.msg('获取用户头像失败')
                 }
+                layer.msg('获取用户头像成功')
                 window.parent.getUserInfo()
-                return layer.msg('获取用户头像成功')
             }
         })
     })
